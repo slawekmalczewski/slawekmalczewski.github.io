@@ -60,6 +60,7 @@ select {
 }
 body {
   font-family: sans-serif;
+  background-color: #1f364d;
 }
 
 h1 {
@@ -67,6 +68,7 @@ h1 {
   margin-bottom: 48px;
   font-weight: normal;
   letter-spacing: 4px;
+  color: white;
 }
 
 h2 {
@@ -74,6 +76,7 @@ h2 {
   margin-top: 30px;
   margin-bottom: 4px;
   letter-spacing: 1px;
+  color: deeppink;
 }
 
 h3 {
@@ -81,10 +84,12 @@ h3 {
   margin-top: 42px;
   margin-bottom: 4px;
   letter-spacing: 1px;
+  color: lightgreen;
 }
 
 p {
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 20px;
+  color: #81b8cd;
 }
