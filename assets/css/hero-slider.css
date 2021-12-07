@@ -1,0 +1,13 @@
+.my-hero-slider-container {
+  width: 100vw;
+  height: 85vh;
+  overflow-y: hidden;
+}
+
+.my-image-slider img {
+  height: 85vh;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(45%);
+  overflow-y: hidden;
+}
