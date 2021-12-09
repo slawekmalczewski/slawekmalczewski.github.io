@@ -1,0 +1,48 @@
+.navbar {
+  width: 100vw;
+  background-color: rgba(45, 45, 45, 1) !important;
+}
+
+.forMediaQuery {
+  max-width: 1600px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 5rem 0 5rem;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .forMediaQuery {
+    all: unset;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .forMediaQuery {
+    all: unset;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1020px) {
+  .forMediaQuery {
+    all: unset;
+  }
+}
+
+@media (min-width: 1021px) {
+  .forMediaQuery {
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 5rem 0 5rem;
+  }
+}
+
+.badge-danger {
+  color: red !important;
+}
